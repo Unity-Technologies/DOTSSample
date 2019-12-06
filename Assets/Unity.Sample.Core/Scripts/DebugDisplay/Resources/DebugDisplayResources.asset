@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee760c28e7d93b3489f9d9db6875d1ba, type: 3}
+  m_Name: DebugDisplayResources
+  m_EditorClassIdentifier: 
+  textMaterial: {fileID: 2100000, guid: 80532a287c4e1134eb2371f6ec293933, type: 2}
+  graphMaterial: {fileID: 2100000, guid: bc5570d638bf0d341bd7788bee3488d2, type: 2}
+  lineMaterial: {fileID: 2100000, guid: 8c0a581cec9f1b84ca44c736c4c4b15c, type: 2}
+  wide: {fileID: 4900000, guid: f287a58d09ec114439e83e9524deb0b3, type: 3}

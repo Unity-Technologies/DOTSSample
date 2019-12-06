@@ -1,0 +1,29 @@
+{
+    "name": "Unity.Sample.BaseCharacter",
+    "references": [
+        "GUID:49f8af64274d04f318e9547deb9c498b",
+        "GUID:9a04c788d87cbe544af964aa9d8dae24",
+        "GUID:6996cd74705d69e41a08d9ebb30a2210",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:953adc2a6b8b4e3c8df5b728bcd546e9",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:cb406e48efc9c46d9a3d4911ffbdecd7",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:39174d49d2befe84d9c54bf8b8d32755",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:3d581b522efa5ba499d64762a189f84c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccc8984edf250744a2ccc86959bb129, type: 3}
+  m_Name: JumpStart
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 7027b57476a331144950eb434c40b36e, type: 3}
+  - {fileID: 8300000, guid: 645957de5caceb84da90ea1751ae6bf4, type: 3}
+  - {fileID: 8300000, guid: 8edbd31f91b7cc544bea3f7771bf5955, type: 3}
+  - {fileID: 8300000, guid: c0a06a3ef76a46348825c0b92d796411, type: 3}
+  - {fileID: 8300000, guid: fdb4e1c64da49ea4e85f459265457af6, type: 3}
+  - {fileID: 8300000, guid: d3af892cc6b52774e8f1799802a6c479, type: 3}
+  - {fileID: 8300000, guid: 1c3babdd61dd04e4cab458483d7ef177, type: 3}
+  - {fileID: 8300000, guid: ca8f7e58702c6b44c8618b696b0b4b20, type: 3}
+  - {fileID: 8300000, guid: edee9c22c28de4a4b9bb3fdefad89b78, type: 3}
+  - {fileID: 8300000, guid: 368b89bb57fbcae4eb1ef15da423d3fa, type: 3}
+  volume: 0
+  distMin: 4.3
+  distMax: 30
+  pitchMin: -1
+  pitchMax: 1
+  loopCount: 1
+  delayMin: 0
+  delayMax: 0
+  repeatMin: 1
+  repeatMax: 1
+  soundGroup: 1
+  spatialBlend: 1
+  panMin: 0
+  panMax: 0
+  rolloffMode: 1

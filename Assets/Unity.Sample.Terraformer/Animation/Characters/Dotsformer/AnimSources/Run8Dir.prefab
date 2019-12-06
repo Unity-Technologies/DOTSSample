@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1721276835290249509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1721276835290249510}
+  - component: {fileID: 1524848734359416418}
+  - component: {fileID: 5255739545171307461}
+  m_Layer: 0
+  m_Name: Run8Dir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721276835290249510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721276835290249509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 114.025246, y: 288.70987, z: -224.84886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1524848734359416418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721276835290249509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &5255739545171307461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721276835290249509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a03cbae3691fed4d8c2e095b6e9a71b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RunBlendSpace2D: {fileID: 20600000, guid: 9d4a6471a69208a499b9f55b8dedb016, type: 2}
+  RunAimClipRef: {fileID: 7400000, guid: 33bec584c39351344843e4573342016d, type: 3}
+  RunAimHorizontalClipRef: {fileID: 7400000, guid: aecbfff927bfe6545bebd15b23840b01,
+    type: 3}
+  AdditiveRefPose: {fileID: 1908992414350169803, guid: 071fe1e44c695b44eabab546cf0b3db3,
+    type: 3}
+  MaxHipOffset: 0
+  HipDragSpeed: 0.9
+  damping: 0.12
+  maxStep: 11
+  StateResetWindow: 0.15
+  blendOutAimOnReloadPitch: 0.66
+  rotateIntoStateSpeed: 10

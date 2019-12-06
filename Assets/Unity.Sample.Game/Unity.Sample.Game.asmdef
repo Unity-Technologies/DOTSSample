@@ -1,0 +1,29 @@
+{
+    "name": "Unity.Sample.Game",
+    "references": [
+        "Unity.Collections",
+        "Unity.Sample.Core",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "Unity.Animation",
+        "Unity.Animation.Hybrid",
+        "Unity.DataFlowGraph",
+        "Unity.Rendering.Hybrid",
+        "Unity.Physics",
+        "Unity.NetCode",
+        "Unity.NetCode.Editor",
+        "Unity.Networking.Transport"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

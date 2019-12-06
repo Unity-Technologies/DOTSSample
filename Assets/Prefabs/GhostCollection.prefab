@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7220314234269160949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7220314234269160947}
+  - component: {fileID: 7220314234269160948}
+  - component: {fileID: -7206268204993703664}
+  m_Layer: 0
+  m_Name: GhostCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7220314234269160947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220314234269160949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7220314234269160948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220314234269160949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e739feae1d9c47c6a78209700d4fac47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+  ConversionTarget: 1
+  canDestroy: 0
+--- !u!114 &-7206268204993703664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220314234269160949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c75b8787d8624691813514d3823a59f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SerializerCollectionPath: /Scripts/Networking/Generated/GhostSerializerCollection.cs
+  DeserializerCollectionPath: /Scripts/Networking/Generated/GhostDeserializerCollection.cs
+  NamePrefix: DotsSample
+  Ghosts:
+  - prefab: {fileID: 8680331907299843499, guid: 7487763fdab730d44b6d03c0589993e4,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 3165004614556371192, guid: fc7244e5d63a2a04aa83dd6eebdfdf62,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 5306868652381650464, guid: a2230e32529d5ca4ea5f550bcaf396ff,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 4856111543943464406, guid: 7252f25d127204c46833d5782d684f94,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 4311073344183150744, guid: 7568de2b7c6b67d48bd2c6c0161c2f71,
+      type: 3}
+    enabled: 1

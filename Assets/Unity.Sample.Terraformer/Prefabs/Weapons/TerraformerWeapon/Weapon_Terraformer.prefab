@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7818490134159295417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519790975032319496}
+  - component: {fileID: 1108188852912960125}
+  - component: {fileID: 1947864824994470091}
+  m_Layer: 0
+  m_Name: Ability_AutoRifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519790975032319496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818490134159295417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3566017946520285806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1108188852912960125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818490134159295417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efea4c4ca1718a41841369ca0295c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1947864824994470091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818490134159295417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a0e1fab3fb90340a4ee0dad26ee982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectileAssetGuid:
+    val0: 0
+    val1: 0
+    val2: 0
+    val3: 0
+  roundsPerSecond: 6
+  clipSize: 25
+  reloadDuration: 1.5
+  damage: 16
+  damageImpulse: 5
+  hitscanRadius: 0.1
+  COFSettings:
+    min: 0.8
+    max: 2
+    shotIncrease: 0.5
+    DecreaseVel: 16
+--- !u!1 &7946904174235312170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3566017946520285806}
+  - component: {fileID: 7202453210877014380}
+  - component: {fileID: 8657435061735657031}
+  - component: {fileID: 5306868652381650464}
+  m_Layer: 0
+  m_Name: Weapon_Terraformer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3566017946520285806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946904174235312170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4519790975032319496}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7202453210877014380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946904174235312170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99181edb8b32694cb86c3d1e1b4acb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilities:
+  - ability: {fileID: 1108188852912960125}
+    ActivateButtons: 0400000010000000
+    abilityTypeFlags: 2
+    canRunWithFlags: 1
+    canInterruptFlags: 0
+  attachBone2:
+    RigAsset: {fileID: 7541563682437429327, guid: 55ca22bd99281f6498c8ffcde0e65529,
+      type: 3}
+    BoneIndex: 27
+--- !u!114 &8657435061735657031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946904174235312170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736ca160ccfe60a4c809ae4cad7a6906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartRegistryAsset: {fileID: 3254417529742410312, guid: 8c67522f514be7c41aa8604f92b11746,
+    type: 3}
+  PartIds: 01000000
+--- !u!114 &5306868652381650464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946904174235312170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultClientInstantiationType: 2
+  RootPath: /Scripts/Networking/Generated/
+  SnapshotDataPath: Weapon_TerraformerSnapshotData.cs
+  UpdateSystemPath: Client/Weapon_TerraformerGhostUpdateSystem.cs
+  SerializerPath: Server/Weapon_TerraformerGhostSerializer.cs
+  Importance: 1
+  PredictingPlayerNetworkId: Item+InputState.playerId
+  Components:
+  - name: AbilityCollection+AbilityEntry
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AbilityCollection+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Item+InputState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: owner
+      quantization: -1
+      interpolate: 0
+    - name: slot
+      quantization: -1
+      interpolate: 0
+    - name: playerId
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: PartOwner+InputState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: PartOwner+RegistryAsset
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: RigAttacher+AttachBone
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: RigAttacher+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Ability+AbilityAction
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: action
+      quantization: -1
+      interpolate: 0
+    - name: actionStartTick
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Ability+AbilityControl
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: behaviorState
+      quantization: -1
+      interpolate: 0
+    - name: requestDeactivate
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Ability+AbilityTag
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityAutoRifle+InterpolatedState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: fireTick
+      quantization: -1
+      interpolate: 0
+    - name: fireEndPos
+      quantization: 100
+      interpolate: 0
+    - name: impactType
+      quantization: -1
+      interpolate: 0
+    - name: impactNormal
+      quantization: 10
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityAutoRifle+PredictedState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: action
+      quantization: -1
+      interpolate: 0
+    - name: phaseStartTick
+      quantization: -1
+      interpolate: 0
+    - name: ammoInClip
+      quantization: -1
+      interpolate: 0
+    - name: COF
+      quantization: 1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityAutoRifle+Settings
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityAutoRifle+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.LocalToParent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.Parent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  doNotStrip: 0

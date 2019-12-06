@@ -1,0 +1,25 @@
+{
+    "name": "Unity.Sample.Tools.Authoring",
+    "references": [
+        "Unity.NetCode",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Sample.Core",
+        "Unity.Sample.Tools",
+        "Unity.Build",
+        "Unity.Build.Common"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

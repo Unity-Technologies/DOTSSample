@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25005daa246ab794c95796a1f34c91c1, type: 3}
+  m_Name: Hero_Terraformer
+  m_EditorClassIdentifier: 
+  items:
+  - asset:
+      val0: -1574760910
+      val1: 1554272925
+      val2: 190144490
+      val3: -6884406
+    slot: 0
+  characterPrefab:
+    val0: -59620123
+    val1: 704960058
+    val2: 1860010922
+    val3: 1658839019
+  health: 100
+  sprintCameraSettings:
+    FOVFactor: 0.93
+    FOVInceraetSpeed: 1
+    FOVDecreaseSpeed: 0.2
+  eyeHeight: 1.8

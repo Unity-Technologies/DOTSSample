@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &508124650101831855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508124650101831849}
+  - component: {fileID: -3212685455921106254}
+  - component: {fileID: 3775559033392905990}
+  m_Layer: 0
+  m_Name: Stand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &508124650101831849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508124650101831855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 114.025246, y: 288.70987, z: -224.84886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3212685455921106254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508124650101831855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &3775559033392905990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508124650101831855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0680799cbcb2dda41a4061a6313601fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimIdle: {fileID: 7400000, guid: b252938db9b3a184a9699056fdac4c3b, type: 3}
+  AnimTurnL: {fileID: 7400000, guid: 8ea766e284e022a41b6c8b2c67c4843a, type: 3}
+  AnimTurnR: {fileID: 7400000, guid: e870cd3602b198140bb67a0373793b9e, type: 3}
+  AnimAimLeft: {fileID: 7400000, guid: 3ccb9bf678c96bd428e5dd121ee06f8a, type: 3}
+  AnimAimMid: {fileID: 7400000, guid: d7563e98628ac8e44b0db10c9bbe3e74, type: 3}
+  AnimAimRight: {fileID: 7400000, guid: a208c97bc7dc5194fa6f30320b2a2dc6, type: 3}
+  AdditiveRefPose: {fileID: 5486871921408578825, guid: 771e2e45005e4534586ba7b63f2b7a45,
+    type: 3}
+  animTurnAngle: 90
+  aimTurnLocalThreshold: 90
+  turnSpeed: 120
+  turnThreshold: 120
+  turnTransitionSpeed: 16
+  aimDuringReloadPitch: 0.25
+  aimDuringReloadYaw: 0.6
+  settings:
+    AnimIdle:
+      val0: -1303211123
+      val1: -1585137229
+      val2: 1452304809
+      val3: 994880765
+    AnimTurnL:
+      val0: -1901631774
+      val1: 581207264
+      val2: 747334683
+      val3: 981779559
+    AnimTurnR:
+      val0: -395260618
+      val1: -1743519055
+      val2: 58373643
+      val3: -1640269453
+    AnimAimLeft:
+      val0: 1019976694
+      val1: 1809086665
+      val2: 316532008
+      val3: -1972379618
+    AnimAimMid:
+      val0: -682213736
+      val1: -924556662
+      val2: 212929867
+      val3: 1950269083
+    AnimAimRight:
+      val0: -1576482437
+      val1: 1368704988
+      val2: 842035194
+      val3: -970118645
+    AdditiveRefPose:
+      val0: 1998466629
+      val1: 1161035870
+      val2: -1230541992
+      val3: 1165634367
+    animTurnAngle: 90
+    aimTurnLocalThreshold: 90
+    turnSpeed: 120
+    turnThreshold: 120
+    turnTransitionSpeed: 16
+    aimDuringReloadPitch: 0.25
+    aimDuringReloadYaw: 0.6

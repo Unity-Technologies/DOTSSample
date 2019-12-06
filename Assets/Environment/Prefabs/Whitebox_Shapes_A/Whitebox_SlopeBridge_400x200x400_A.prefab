@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7059924194097643833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519426735806074507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShapeType: 31
+  m_PrimitiveCenter:
+    x: -1.999999
+    y: -1.9999981
+    z: 2.000001
+  m_PrimitiveSize:
+    x: 4.000002
+    y: 4.0000033
+    z: 4.000001
+  m_PrimitiveOrientation:
+    Value:
+      x: -0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_Capsule:
+    Height: 4.0000033
+    Radius: 2.000001
+    Axis: 1
+  m_Cylinder:
+    Height: 4.0000033
+    Radius: 2.000001
+    Axis: 1
+  m_CylinderSideCount: 20
+  m_SphereRadius: 2.0000017
+  m_MinimumSkinnedVertexWeight: 0.1
+  m_ConvexHullGenerationParameters:
+    m_SimplificationTolerance: 0.060000047
+    m_BevelRadius: 0.05
+    m_MinimumAngle: 2.5000002
+  m_CustomMesh: {fileID: 0}
+  m_Material:
+    m_SupportsTemplate: 1
+    m_Template: {fileID: 11400000, guid: 5594fc3a3af26714b85125f24ce491e2, type: 2}
+    m_IsTrigger:
+      m_Override: 0
+      m_Value: 0
+    m_Friction:
+      m_Override: 0
+      m_Value:
+        Value: 0.5
+        CombineMode: 0
+    m_Restitution:
+      m_Override: 0
+      m_Value:
+        Value: 0
+        CombineMode: 2
+    m_BelongsTo:
+      m_Override: 0
+      m_Value: 0101010101010101010101010101010101010101010101010101010101010101
+    m_CollidesWith:
+      m_Override: 0
+      m_Value: 0101010101010101010101010101010101010101010101010101010101010101
+    m_RaisesCollisionEvents:
+      m_Override: 0
+      m_Value: 0
+    m_CustomTags:
+      m_Override: 0
+      m_Value: 0000000000000000
+  m_ConvexRadius_Deprecated: -1
+--- !u!1001 &882876764047666496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_Name
+      value: Whitebox_SlopeBridge_400x200x400_A
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 825782023406625739, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -63.725
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.62
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710695
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519476035499291854, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0224a3297f972bf4f895534329cb5c74, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 070d511ff8670cb49a9a96bc6ae2d54e, type: 3}
+--- !u!1 &519426735806074507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 825782023406625739, guid: 070d511ff8670cb49a9a96bc6ae2d54e,
+    type: 3}
+  m_PrefabInstance: {fileID: 882876764047666496}
+  m_PrefabAsset: {fileID: 0}

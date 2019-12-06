@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3440057856182450177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3440057856182450188}
+  - component: {fileID: 3440057856182450191}
+  - component: {fileID: 5371458352073840465}
+  m_Layer: 0
+  m_Name: StandIK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3440057856182450188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440057856182450177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3440057856182450191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440057856182450177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &5371458352073840465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440057856182450177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8694e13dcbcbc4f44b7b353502169dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animTurnAngle: 90
+  FootIk:
+    leftToeStandPos:
+      x: -0.095
+      y: 0.042
+      z: 0.301
+    rightToeStandPos:
+      x: 0.173
+      y: 0.042
+      z: -0.176
+    debugIdlePos: 0
+    enabled: 1
+    emitRayOffset: 0.5
+    maxRayDistance: 0.075
+    debugRayCast: 0
+    maxStepSize: 0.55
+    weightShiftAngle: 17.5
+    weightShiftHorizontal: -0.5
+    weightShiftVertical: -0.35
+    maxFootRotationOffset: 30
+    enterStateEaseIn: 0.8
+  RigReferences: {fileID: 4949115750462231802, guid: 040d3b9261786c249a408fafe7f660b7,
+    type: 3}
+  boneReferences:
+    HipsIndex: 2
+    LeftToeIndex: 8
+    RightToeIndex: 24
+    LeftFootIkBoneIndex: 128
+    RightFootIkBoneIndex: 129

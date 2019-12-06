@@ -1,0 +1,1160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2490054762044063048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 342710441877682275}
+  - component: {fileID: 1047466256418606285}
+  - component: {fileID: 1356762407342141151}
+  m_Layer: 0
+  m_Name: Ability_SelectSlot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &342710441877682275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490054762044063048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3637207506116014540}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1047466256418606285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490054762044063048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efea4c4ca1718a41841369ca0295c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1356762407342141151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490054762044063048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71a5033a1b966d48bb41a63983ecc83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2855457432086291850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7833523483451821302}
+  - component: {fileID: 6974054439101463663}
+  - component: {fileID: 601758284412352769}
+  m_Layer: 0
+  m_Name: Ability_Sprint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7833523483451821302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855457432086291850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3637207506116014540}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6974054439101463663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855457432086291850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efea4c4ca1718a41841369ca0295c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &601758284412352769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855457432086291850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ca356814616cb42943731bc4bf8dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    activateButton: 128
+    stopDelay: 0.2
+--- !u!1 &3637207506115784108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3637207506116014540}
+  - component: {fileID: 3582152881772207947}
+  - component: {fileID: -2216183255731533168}
+  - component: {fileID: 3373365002211518574}
+  - component: {fileID: 824424967728820713}
+  - component: {fileID: 3165004614556371192}
+  m_Layer: 0
+  m_Name: Char_Terraformer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3637207506116014540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637207506115784108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 376765950009935098}
+  - {fileID: 7833523483451821302}
+  - {fileID: 3770925827890979258}
+  - {fileID: 342710441877682275}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3582152881772207947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637207506115784108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014446e9f50e356448021bb112cd6fe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilities:
+  - ability: {fileID: 6970608061663985267}
+    ActivateButtons: 
+    abilityTypeFlags: 1
+    canRunWithFlags: 6
+    canInterruptFlags: 0
+  - ability: {fileID: 6974054439101463663}
+    ActivateButtons: 80000000
+    abilityTypeFlags: 4
+    canRunWithFlags: 1
+    canInterruptFlags: 0
+  - ability: {fileID: 262689557592176244}
+    ActivateButtons: 
+    abilityTypeFlags: 8
+    canRunWithFlags: 1
+    canInterruptFlags: -1
+  - ability: {fileID: 1047466256418606285}
+    ActivateButtons: 
+    abilityTypeFlags: 2
+    canRunWithFlags: 1
+    canInterruptFlags: 4
+--- !u!114 &-2216183255731533168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637207506115784108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4fe73b33de3bb428fb850194c15e9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rigs:
+  - Rig: {fileID: -5723781328284967664, guid: d2da793084e52c8469991df3297e3dae, type: 3}
+    MaxDist: 5
+  - Rig: {fileID: 7541563682437429327, guid: 55ca22bd99281f6498c8ffcde0e65529, type: 3}
+    MaxDist: 0
+  AnimSourceRoot:
+    val0: -1913442134
+    val1: 731144086
+    val2: 1147931993
+    val3: -1958046601
+--- !u!114 &3373365002211518574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637207506115784108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736ca160ccfe60a4c809ae4cad7a6906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartRegistryAsset: {fileID: 3254417529742410312, guid: 88686be2ee1f2c340b43bb28e14d84cc,
+    type: 3}
+  PartIds: 01000000010000000000000001000000
+--- !u!114 &824424967728820713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637207506115784108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c258fefe7ec438898514f9f43dcbd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gravity:
+    x: -0
+    y: -9.81
+    z: -0
+  MaxSlope: 50
+  MaxIterations: 10
+  CharacterMass: 1
+  SkinWidth: 0.02
+  ContactTolerance: 0.1
+  AffectsPhysicsBodies: 0
+  MaxMovementSpeed: 10
+  GroundProbeVector:
+    x: 0
+    y: -0.1
+    z: 0
+  CapsuleCenter:
+    x: 0
+    y: 0.98
+    z: 0
+  CapsuleRadius: 0.4
+  CapsuleHeight: 1.8
+--- !u!114 &3165004614556371192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637207506115784108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultClientInstantiationType: 2
+  RootPath: /Scripts/Networking/Generated/
+  SnapshotDataPath: Char_TerraformerSnapshotData.cs
+  UpdateSystemPath: Client/Char_TerraformerGhostUpdateSystem.cs
+  SerializerPath: Server/Char_TerraformerGhostSerializer.cs
+  Importance: 1
+  PredictingPlayerNetworkId: Player+OwnerPlayerId.Value
+  Components:
+  - name: AbilityCollection+AbilityEntry
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AbilityCollection+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AbilityOwner+OwnedAbility
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AbilityOwner+OwnedCollection
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AbilityOwner+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AimData+Data
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AnimSourceController+RigData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: AnimSourceController+Settings
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Character+InterpolatedData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 1
+    fields:
+    - name: Position
+      quantization: 100
+      interpolate: 1
+    - name: rotation
+      quantization: 1
+      interpolate: 1
+    - name: aimYaw
+      quantization: 1
+      interpolate: 1
+    - name: aimPitch
+      quantization: 1
+      interpolate: 1
+    - name: moveYaw
+      quantization: 1
+      interpolate: 1
+    - name: charAction
+      quantization: -1
+      interpolate: 0
+    - name: charActionTick
+      quantization: -1
+      interpolate: 0
+    - name: damageTick
+      quantization: -1
+      interpolate: 0
+    - name: damageDirection
+      quantization: 10
+      interpolate: 0
+    - name: sprinting
+      quantization: -1
+      interpolate: 0
+    - name: sprintWeight
+      quantization: 100
+      interpolate: 1
+    - name: crouchWeight
+      quantization: 100
+      interpolate: 1
+    - name: selectorTargetSource
+      quantization: -1
+      interpolate: 0
+    - name: moveAngleLocal
+      quantization: 1
+      interpolate: 1
+    - name: shootPoseWeight
+      quantization: 1000
+      interpolate: 1
+    - name: locomotionVector
+      quantization: 1000
+      interpolate: 1
+    - name: locomotionPhase
+      quantization: 1000
+      interpolate: 1
+    - name: banking
+      quantization: 1000
+      interpolate: 1
+    - name: landAnticWeight
+      quantization: 100
+      interpolate: 1
+    - name: turnStartAngle
+      quantization: 1
+      interpolate: 0
+    - name: turnDirection
+      quantization: -1
+      interpolate: 0
+    - name: squashTime
+      quantization: 100
+      interpolate: 1
+    - name: squashWeight
+      quantization: 100
+      interpolate: 1
+    - name: inAirTime
+      quantization: 100
+      interpolate: 1
+    - name: jumpTime
+      quantization: 100
+      interpolate: 1
+    - name: simpleTime
+      quantization: 100
+      interpolate: 1
+    - name: footIkOffset
+      quantization: 100
+      interpolate: 1
+    - name: footIkNormalLeft
+      quantization: 100
+      interpolate: 1
+    - name: footIkNormalRight
+      quantization: 100
+      interpolate: 1
+    - name: footIkWeight
+      quantization: 100
+      interpolate: 1
+    - name: blendOutAim
+      quantization: 100
+      interpolate: 1
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Character+PredictedData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 2
+    fields:
+    - name: tick
+      quantization: -1
+      interpolate: 0
+    - name: position
+      quantization: 0
+      interpolate: 0
+    - name: velocity
+      quantization: 0
+      interpolate: 0
+    - name: sprinting
+      quantization: -1
+      interpolate: 0
+    - name: cameraProfile
+      quantization: -1
+      interpolate: 0
+    - name: damageTick
+      quantization: -1
+      interpolate: 0
+    - name: damageDirection
+      quantization: 1000
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Character+ReplicatedData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: heroTypeIndex
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Character+Settings
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CharacterControllerComponentData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CharacterControllerGroundSupportData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: SurfaceNormal
+      quantization: 0
+      interpolate: 0
+    - name: SurfaceVelocity
+      quantization: 0
+      interpolate: 0
+    - name: SupportedState
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CharacterControllerInitializationData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CharacterControllerMoveQuery
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CharacterControllerMoveResult
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: MoveResult
+      quantization: 0
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: CharacterControllerVelocity
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: Velocity
+      quantization: 0
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: DamageEvent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: DamageHistoryData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: HealthStateData
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: health
+      quantization: 1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: HitColliderOwner+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Inventory+InternalState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Inventory+ItemEntry
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Inventory+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: activeSlot
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: PartOwner+InputState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: PartOwner+RegistryAsset
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Player+OwnerPlayerId
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: Value
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: PlayerControlled+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: resetCommandTick
+      quantization: -1
+      interpolate: 0
+    - name: resetCommandLookYaw
+      quantization: 10
+      interpolate: 0
+    - name: resetCommandLookPitch
+      quantization: 10
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 0
+  - name: SkeletonRenderer
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 0
+  - name: Ability+AbilityControl
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: behaviorState
+      quantization: -1
+      interpolate: 0
+    - name: requestDeactivate
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Ability+AbilityTag
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityMovement+InterpolatedState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: charLocoState
+      quantization: -1
+      interpolate: 0
+    - name: charLocoTick
+      quantization: -1
+      interpolate: 0
+    - name: crouching
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityMovement+PredictedState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: locoState
+      quantization: -1
+      interpolate: 0
+    - name: locoStartTick
+      quantization: -1
+      interpolate: 0
+    - name: jumpCount
+      quantization: -1
+      interpolate: 0
+    - name: crouching
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 1
+  - name: AbilityMovement+Settings
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.LocalToParent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.Parent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 1
+  - name: Ability+AbilityControl
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: behaviorState
+      quantization: -1
+      interpolate: 0
+    - name: requestDeactivate
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Ability+AbilityTag
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: AbilitySprint+PredictedState
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: active
+      quantization: -1
+      interpolate: 0
+    - name: terminating
+      quantization: -1
+      interpolate: 0
+    - name: terminateStartTick
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 2
+  - name: AbilitySprint+Settings
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Unity.Transforms.LocalToParent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Unity.Transforms.Parent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 2
+  - name: Ability+AbilityControl
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: behaviorState
+      quantization: -1
+      interpolate: 0
+    - name: requestDeactivate
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Ability+AbilityTag
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: AbilityDead+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Unity.Transforms.LocalToParent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Unity.Transforms.Parent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 3
+  - name: Ability+AbilityControl
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields:
+    - name: behaviorState
+      quantization: -1
+      interpolate: 0
+    - name: requestDeactivate
+      quantization: -1
+      interpolate: 0
+    manualFieldList: 0
+    entityIndex: 4
+  - name: Ability+AbilityTag
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: AbilitySelectSlot+Settings
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: AbilitySelectSlot+State
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: Unity.Transforms.LocalToParent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: Unity.Transforms.LocalToWorld
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: Unity.Transforms.Parent
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: Unity.Transforms.Rotation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  - name: Unity.Transforms.Translation
+    interpolatedClient: 1
+    predictedClient: 1
+    server: 1
+    sendDataTo: 0
+    fields: []
+    manualFieldList: 0
+    entityIndex: 4
+  doNotStrip: 0
+--- !u!1 &5970366817883367895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3770925827890979258}
+  - component: {fileID: 262689557592176244}
+  - component: {fileID: 8892724982790403688}
+  m_Layer: 0
+  m_Name: Ability_Dead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3770925827890979258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5970366817883367895}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3637207506116014540}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262689557592176244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5970366817883367895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efea4c4ca1718a41841369ca0295c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8892724982790403688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5970366817883367895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6766b18580be124f93ef7911f48ab2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8417016949227275076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 376765950009935098}
+  - component: {fileID: 6970608061663985267}
+  - component: {fileID: 7377058148952340554}
+  m_Layer: 0
+  m_Name: Ability_Movement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &376765950009935098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417016949227275076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3637207506116014540}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6970608061663985267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417016949227275076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efea4c4ca1718a41841369ca0295c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7377058148952340554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417016949227275076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3d60a7c98e8254797ca6ffa895e2e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    playerSpeed: 5
+    playerSprintSpeed: 7
+    playerAcceleration: 15
+    playerFriction: 12
+    playerAiracceleration: 1
+    playerAirFriction: 0.5
+    playerGravity: 18
+    easterBunny: 1
+    jumpAscentDuration: 0.3
+    jumpAscentHeight: 1
+    maxFallVelocity: 50

@@ -1,0 +1,31 @@
+﻿{
+    "name": "Unity.Sample.Terraformer.Authoring",
+    "references": [
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:49f8af64274d04f318e9547deb9c498b",
+        "GUID:3d581b522efa5ba499d64762a189f84c",
+        "GUID:39174d49d2befe84d9c54bf8b8d32755",
+        "GUID:cf3547b97f3ec664f9eca740d393c07c",
+        "GUID:953adc2a6b8b4e3c8df5b728bcd546e9",
+        "GUID:cb406e48efc9c46d9a3d4911ffbdecd7",
+        "GUID:6996cd74705d69e41a08d9ebb30a2210",
+        "GUID:f3edf240d63bd3242b9a859a4c14981b",
+        "GUID:9a04c788d87cbe544af964aa9d8dae24",
+        "GUID:58792b48da15aff48ae3698ebf3f0f84",
+        "GUID:d67902ebcd4163f4e941eb9b102abe85",
+        "GUID:ff6b5d3e3c4c80a45bd6274bc46bc133"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Unity.Sample.Game.Authoring",
+    "references": [
+        "Unity.NetCode",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Sample.Core",
+        "Unity.Sample.Core.Authoring",
+        "Unity.Sample.Game",
+        "Unity.Build",
+        "Unity.Animation",
+        "Unity.Animation.Hybrid",
+        "Unity.Transforms",
+        "Unity.Rendering.Hybrid"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

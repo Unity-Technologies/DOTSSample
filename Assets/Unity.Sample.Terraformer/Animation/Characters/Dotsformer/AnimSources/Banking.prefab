@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3440057856182450177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3440057856182450188}
+  - component: {fileID: 3440057856182450191}
+  - component: {fileID: 4176652156963048427}
+  m_Layer: 0
+  m_Name: Banking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3440057856182450188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440057856182450177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3440057856182450191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440057856182450177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &4176652156963048427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440057856182450177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8317ca9d5a753054abbbf3b84f7bb461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    DoOverrideBank: 0
+    OverrideAmount: -50
+    Position:
+      x: 1.25
+      y: 0
+      z: 0
+    EulerRotation:
+      x: 0
+      y: 0
+      z: 1
+    BankContribution: 25
+    MaxBankContribution: 150
+    BankDamp: 80
+    BankMagnitude: 20
+    FootMultiplier: 0.5
+    HeadMultiplier: 0.1
+    SpineMultiplier: 0.333
+    sprintSpeed: 7
+    boneReferences:
+      NeckLeftRightIndex: 78
+      HeadLeftRightIndex: 79
+      SpineLeftRightIndex: 36
+      ChestLeftRightIndex: 37
+      UpperChestLeftRightIndex: 39
+      LeftFootIKIndex: 128
+      RightFootIKIndex: 129
+      HipsIndex: 2
+  RigReferences: {fileID: 4949115750462231802, guid: 040d3b9261786c249a408fafe7f660b7,
+    type: 3}

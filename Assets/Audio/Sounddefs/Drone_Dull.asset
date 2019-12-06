@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccc8984edf250744a2ccc86959bb129, type: 3}
+  m_Name: Drone_Dull
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: f16c9b3cc75ff6e41b04444ee8e68808, type: 3}
+  volume: -32.9
+  distMin: 1.5
+  distMax: 30
+  pitchMin: 0
+  pitchMax: 0
+  loopCount: 0
+  delayMin: 0
+  delayMax: 0
+  repeatMin: 2
+  repeatMax: 2
+  soundGroup: 0
+  spatialBlend: 0
+  panMin: 0
+  panMax: 0
+  rolloffMode: 1

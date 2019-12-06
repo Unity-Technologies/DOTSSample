@@ -1,0 +1,16 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-9635cffb5d7da422c922505e40219752-93214019566545601-0"
+    ],
+    "Components": [{
+        "$type": "Unity.Build.Common.ClassicBuildProfile, Unity.Build.Common",
+        "Target": 19,
+        "Configuration": 2,
+        "Pipeline": "GlobalObjectId_V1-1-b08acfa97ea29e84597342a6a2afa6b2-93214019566545601-0",
+        "ExcludedAssemblies": []
+    }, {
+        "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+        "ProductName": "DotsSample-Server",
+        "CompanyName": "Unity Technologies"
+    }]
+}

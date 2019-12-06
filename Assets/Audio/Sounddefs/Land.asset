@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccc8984edf250744a2ccc86959bb129, type: 3}
+  m_Name: Land
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 6d7fe9bdff5bbc5449f182bf8f6d6e41, type: 3}
+  - {fileID: 8300000, guid: 213766a1a0e7b3d4d8046392c7d00bc9, type: 3}
+  - {fileID: 8300000, guid: 920f3a8dd36bfec409303b51f785deb9, type: 3}
+  volume: -10
+  distMin: 4.3
+  distMax: 30
+  pitchMin: -1
+  pitchMax: 1
+  loopCount: 1
+  delayMin: 0
+  delayMax: 0
+  repeatMin: 1
+  repeatMax: 1
+  soundGroup: 1
+  spatialBlend: 1
+  panMin: 0
+  panMax: 0
+  rolloffMode: 1

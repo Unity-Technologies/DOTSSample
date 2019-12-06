@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7692119535584017353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3583151480723463592}
+  - component: {fileID: 1039410340064589251}
+  - component: {fileID: 6305894314240064169}
+  m_Layer: 0
+  m_Name: JumpRun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3583151480723463592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692119535584017353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.686838, y: 1.4528713, z: 13.102016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1039410340064589251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692119535584017353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &6305894314240064169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692119535584017353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8362a63e8f5c0894db0d7e71d1785070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    jumpHeight: 1.4
+    JumpClip:
+      val0: 2044897182
+      val1: 2057612629
+      val2: -507686294
+      val3: -1160685851
+    JumpAimVerticalClip:
+      val0: 1841717001
+      val1: -861658190
+      val2: 48654635
+      val3: -1382997505
+    JumpAimHorizontalClip:
+      val0: 1841717001
+      val1: -861658190
+      val2: 48654635
+      val3: -1382997505
+    AdditiveRefPose:
+      val0: -1138051891
+      val1: 1231304888
+      val2: -449589061
+      val3: 2111818279
+    MaxHipOffset: 0
+    HipDragSpeed: 0.9
+    aimDuringReloadPitch: 0.5
+  jumpHeight: 1.4
+  JumpClip: {fileID: 7400002, guid: 79e2a79ead557aa46a52bde1e556d1ba, type: 3}
+  JumpAimVerticalClip: {fileID: 7400000, guid: 6dc65f0923b2cca42b69e602ff2191ad, type: 3}
+  JumpAimHorizontalClip: {fileID: 7400000, guid: 6dc65f0923b2cca42b69e602ff2191ad,
+    type: 3}
+  AdditiveRefPose: {fileID: 7489808600513446080, guid: bc2ab4cd38b84964bbd033e527cadf7d,
+    type: 3}
+  MaxHipOffset: 0
+  HipDragSpeed: 0.9
+  aimDuringReloadPitch: 0.5

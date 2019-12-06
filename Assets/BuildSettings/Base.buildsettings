@@ -1,0 +1,27 @@
+﻿{
+    "Dependencies": [],
+    "Components": [{
+        "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+        "BuildCurrentScene": false,
+        "Scenes": [
+            "GlobalObjectId_V1-1-b5639cc1d4ac59a4b941da96ee6f432c-102900000-0",
+            "GlobalObjectId_V1-1-ecb32db0e4adddb478e4538a654f1900-102900000-0",
+            "GlobalObjectId_V1-1-b9b043c0e2a8d9b44b6f8cb87c71bfa8-102900000-0",
+            "GlobalObjectId_V1-1-2acb9c506a7d79e4390615dddc5520a9-102900000-0",
+            "GlobalObjectId_V1-1-23c95d5ebf1f8d349a5645491bd1d7c3-102900000-0",
+            "GlobalObjectId_V1-1-e5553817e8623034090ad659e20b7e49-102900000-0"
+        ]
+    }, {
+        "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+        "ProductName": "DotsSample",
+        "CompanyName": "Unity Technologies"
+    }, {
+        "$type": "Unity.Build.Common.ClassicScriptingSettings, Unity.Build.Common",
+        "ScriptingBackend": 0,
+        "Il2CppCompilerConfiguration": 1,
+        "UseIncrementalGC": false
+    }, {
+        "$type": "RetainBlobAssetsSetting, Unity.Scenes.Editor",
+        "FramesToRetainBlobAssets": 17
+    }]
+}
