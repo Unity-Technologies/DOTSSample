@@ -57,7 +57,7 @@ public class HandleCharacterSpawn : JobComponentSystem
 
             var state = new Character.State();
 
-            var heroTypeAsset = heroRegistry.Value.Heroes[characterRepAll.heroTypeIndex];
+            ref var heroTypeAsset = ref heroRegistry.Value.Heroes[characterRepAll.heroTypeIndex];
 
             // Setup health
             healthState.SetMaxHealth(heroTypeAsset.health);

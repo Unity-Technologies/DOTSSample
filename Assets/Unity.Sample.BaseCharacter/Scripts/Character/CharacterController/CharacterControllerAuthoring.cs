@@ -1,4 +1,5 @@
 ﻿using System;
+using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
@@ -127,13 +128,17 @@ public class CharacterControllerAuthoring : MonoBehaviour, IConvertGameObjectToE
     }
 }
 
+[DisableAutoCreation]
+[AlwaysSynchronizeSystem]
 [AlwaysUpdateSystem]
-[UpdateInGroup(typeof(InitializationSystemGroup))]
+[UpdateInGroup(typeof(AbilityUpdateSystemGroup))]
+[UpdateAfter(typeof(MovementUpdatePhase))]
+[UpdateBefore(typeof(CharacterControllerStepSystem))]
 public class CharacterControllerInitAndCleanupSystem : JobComponentSystem
 {
     protected override JobHandle OnUpdate(JobHandle inputDeps)
     {
-        var ecb = World.GetOrCreateSystem<EndInitializationEntityCommandBufferSystem>().CreateCommandBuffer();
+        var ecb  = new EntityCommandBuffer(Allocator.TempJob);
 
         Entities
             .WithNone<CharacterControllerCollider>()
@@ -157,6 +162,10 @@ public class CharacterControllerInitAndCleanupSystem : JobComponentSystem
                     collider.Collider.Dispose();
                     ecb.RemoveComponent<CharacterControllerCollider>(e);
                 }).Run();
+
+        ecb.Playback(EntityManager);
+        ecb.Dispose();
+
         return inputDeps;
     }
 }

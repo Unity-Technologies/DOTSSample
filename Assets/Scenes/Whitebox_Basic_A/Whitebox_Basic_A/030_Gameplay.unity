@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShapeType: 31
+  m_ShapeType: 0
   m_PrimitiveCenter:
     x: -1
     y: -1.0000002
@@ -324,7 +324,9 @@ MonoBehaviour:
     m_SimplificationTolerance: 0.030000007
     m_BevelRadius: 0.05
     m_MinimumAngle: 2.5000002
-  m_CustomMesh: {fileID: 0}
+  m_CustomMesh: {fileID: 7319280665265834630, guid: 150ad86663792b44893572265a86e816,
+    type: 3}
+  m_ForceUnique: 0
   m_Material:
     m_SupportsTemplate: 1
     m_Template: {fileID: 11400000, guid: 5594fc3a3af26714b85125f24ce491e2, type: 2}
@@ -372,7 +374,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 66be85f64fd6e7f438ffc3de9984f8e2, type: 2}
+  - {fileID: 2100000, guid: a7ed9b602129b5046aa730cd50af1cd2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

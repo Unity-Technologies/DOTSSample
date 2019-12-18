@@ -4,6 +4,7 @@ using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Physics;
 using Unity.Physics.Systems;
+using Unity.NetCode;
 
 [UpdateInGroup(typeof(AbilityUpdateSystemGroup))]
 [UpdateAfter(typeof(CharacterControllerStepSystem))]
@@ -27,6 +28,7 @@ public class CharacterControllerCheckSupportSystem : JobComponentSystem
     {
         var physicsWorld = m_BuildPhysicsWorldSystem.PhysicsWorld;
         var time = m_GameTimeSingletonQuery.GetSingleton<GlobalGameTime>().gameTime;
+        var PredictingTick = World.GetExistingSystem<GhostPredictionSystemGroup>().PredictingTick;
 
         var constraints = new NativeList<SurfaceConstraintInfo>(Allocator.Temp);
         var castHits = new NativeList<ColliderCastHit>(Allocator.Temp);
@@ -39,8 +41,12 @@ public class CharacterControllerCheckSupportSystem : JobComponentSystem
                     ref CharacterControllerMoveResult resultPosition,
                     ref CharacterControllerVelocity velocity,
                     ref CharacterControllerCollider ccCollider,
-                    ref CharacterControllerGroundSupportData ccGroundData)=>
+                    ref CharacterControllerGroundSupportData ccGroundData,
+                    in PredictedGhostComponent predictedGhostComponent) =>
                 {
+                    if (!GhostPredictionSystemGroup.ShouldPredict(PredictingTick, predictedGhostComponent))
+                        return;
+
                     if (!ccQuery.CheckSupport)
                     {
                         ccGroundData.SupportedState = CharacterControllerUtilities.CharacterSupportState.Unsupported;

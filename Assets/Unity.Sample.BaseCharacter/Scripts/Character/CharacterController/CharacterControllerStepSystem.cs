@@ -7,6 +7,7 @@ using Unity.Physics;
 using Unity.Physics.Extensions;
 using Unity.Physics.Systems;
 using Unity.Transforms;
+using Unity.NetCode;
 
 [UpdateInGroup(typeof(AbilityUpdateSystemGroup))]
 [UpdateAfter(typeof(MovementUpdatePhase))]
@@ -27,14 +28,18 @@ public class CharacterControllerFollowGroundSystem : JobComponentSystem
         inputDeps.Complete();
 
         var physicsWorld = m_BuildPhysicsWorldSystem.PhysicsWorld;
+        var PredictingTick = World.GetExistingSystem<GhostPredictionSystemGroup>().PredictingTick;
 
         Entities
             .ForEach((
                 ref CharacterControllerComponentData ccData,
                 ref CharacterControllerInitializationData ccInitData,
                 ref CharacterControllerMoveQuery ccMoveQuery,
-                ref CharacterControllerVelocity ccVelocity) =>
+                ref CharacterControllerVelocity ccVelocity,
+                in PredictedGhostComponent predictedGhostComponent) =>
         {
+            if (!GhostPredictionSystemGroup.ShouldPredict(PredictingTick, predictedGhostComponent))
+                return;
             if (!ccMoveQuery.FollowGround)
                 return;
 
@@ -159,6 +164,8 @@ public class CharacterControllerStepSystem : JobComponentSystem
         var castHits = new NativeList<ColliderCastHit>(Allocator.Temp);
         var distanceHits = new NativeList<DistanceHit>(Allocator.Temp);
 
+        var PredictingTick = World.GetExistingSystem<GhostPredictionSystemGroup>().PredictingTick;
+
         Entities
             .WithName("CharacterControllerStepSystem")
             .ForEach((
@@ -166,8 +173,12 @@ public class CharacterControllerStepSystem : JobComponentSystem
                 ref CharacterControllerCollider ccCollider,
                 ref CharacterControllerMoveQuery moveQuery,
                 ref CharacterControllerMoveResult moveResult,
-                ref CharacterControllerVelocity velocity)=>
+                ref CharacterControllerVelocity velocity,
+                in PredictedGhostComponent predictedGhostComponent) =>
             {
+                if (!GhostPredictionSystemGroup.ShouldPredict(PredictingTick, predictedGhostComponent))
+                    return;
+
                 constraints.Clear();
                 castHits.Clear();
                 distanceHits.Clear();

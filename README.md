@@ -6,7 +6,7 @@
 The purpose of this project is to test and demonstrate the new packages from
 the Unity DOTS tech stack in a single place. Currently, the major ones are:
 
-  * Animation for DOTS
+  * Unity Animation
   * Unity Transport and Unity NetCode
   * Unity Physics
   * Entities with conversion workflow and Unity Live Link
@@ -23,10 +23,9 @@ Platforms: Windows and MacOS
 ***Note*** This project is using the Burst compiler and for now you need to make
 sure you have the following prerequisites: https://docs.unity3d.com/Packages/com.unity.burst@1.2/manual/index.html#burst-aot-requirements
 
-***Known issue***: Be aware that with MacOS 10.15 there is a known crash on certain
-MacBook Pro's (e.g. the 2015 model). This will take down the entire OS so
-recommend you either use an older version of MacOS or wait until this has
-been resolved.
+***Known issue***: Be aware that with the first versions of MacOS 10.15 there is a known crash on certain
+MacBook Pro's (e.g. the 2015 model). This issue will take down the entire OS so be sure
+to upgrade to at least 10.15.2 where it was fixed.
 
 ## Opening the project for the first time
 
@@ -148,6 +147,8 @@ When they stop appearing everything is bursted and performance is as good as it 
 If you prefer, you can also turn on Jobs > Burst > Synchronous Compilation which will wait for
 all burst compilations to finish before entering play mode.
 
+At present, the project is configured with the define `ENABLE_SIMPLE_SYSTEM_DEPENDENCIES` that was introduced in entities version 0.3. This provides better performance in the editor since most gamecode is still tied to
+the main thread. See the changelog of entities 0.3.0 for more information.
 
 ## Caveats and known issues
 
