@@ -43,10 +43,13 @@ live link in action.
 * You can now enter play mode and should be able to play the game.
 
 * Opening
-  the window "Multiplayer > PlayMode Tools" gives you options for what happens when you enter play mode. By default it will say "Client and Server" which
+  the window "Multiplayer > PlayMode Tools" gives you options for what happens
+  when you enter play mode. By default it will say "Client and Server" which
   means that play mode will host two worlds, a client and a server.
   We will get back to more of these options, but for now you can try requesting a few
-  "thin clients". If you put a (not too big!) number in the "Num Thin Clients" field before entering play mode, you should get a bunch of 'dumb bots' clients that simply run around in circles and shoot.
+  "thin clients". If you put a (not too big!) number in the "Num Thin Clients" field
+  before entering play mode, you should get a bunch of 'dumb bots' clients
+  that simply run around in circles and shoot.
 
 * ***Known issue***: The option "Num Clients" is not working properly at this time.
 
@@ -59,14 +62,16 @@ live link in action.
 
 * To make a standalone build, locate Assets/BuildsSettings folder in the Project
   tab and select `Win-Server` or `OSX-Server` depending on your OS. In the
-  Inspector window, change the drop-down button at the top to "Build" and press it to generate a standalone server build. Do the same with `Win-Client` / 
+  Inspector window, change the drop-down button at the top to "Build" and press
+  it to generate a standalone server build. Do the same with `Win-Client` / 
   `OSX-Client`.
 
 * ***Known Issue***: Make sure the scene you have open when you do this have no unsaved
   modification. If it has, build will fail.
    
 * Once both have been built, the next steps will spin up a server and launch
-  a client and connect to it. Use Explorer (Win), Finder (OSX) or a command prompt to locate the builds. They are found in a folder called `build` next to your
+  a client and connect to it. Use Explorer (Win), Finder (OSX) or a command prompt
+  to locate the builds. They are found in a folder called `build` next to your
   `Assets` folder.
   
 * Launch the server executable. You should see the game console open (toggle
@@ -77,7 +82,8 @@ live link in action.
   connect the client to the server.
 
 * ***Known Issue***: On MacOS there will be HUD and black screen only shown on the client
-  for up to 10 minutes the first time the game is launched. (If you press Esc and open the settings menu for the game, switching to Low graphics quality setting might clear this up
+  for up to 10 minutes the first time the game is launched. (If you press Esc and open the
+  settings menu for the game, switching to Low graphics quality setting might clear this up
   and save you the wait!)
     
 * You can connect more clients; and if you want to do some automation,
@@ -115,11 +121,11 @@ any further. A workaround, until this is fixed, is to reboot the machine.
 ## A few remarks on multiplayer testing
 
 * If you want to use the editor as either a client or a server, the Multiplayer > PlayMode Tools
-  window can be used. By default entering playmode will run a client and a server world.
+  window can be used. By default entering play mode will run a client and a server world.
 
 * As an example, you can launch a standalone server. Then in the editor in the PlayMode tools
   select Client and type `127.0.0.1` as the server it should connect to. When you enter
-  playmode, the editor will now act as a client and connect to the server.
+  play mode, the editor will now act as a client and connect to the server.
 
 * When running as client in the editor, you can access some network stats by opening in a
   browser the file `ModifiedPackages/com.unity.netcode/Runtime/Stats/netdbg.html` and connect
@@ -137,7 +143,7 @@ view at the same time, it can also help to close the scene view or put it in a t
 the game view when in play mode.
 
 Be aware that the burst compiler is compiling code in the background so when you enter
-playmode it can take a while for full performance to be achieved. Turning on Burst timings
+play mode it can take a while for full performance to be achieved. Turning on Burst timings
 (Jobs > Burst > Show Timings) will give you a log item for each completed burst code piece.
 When they stop appearing everything is bursted and performance is as good as it gets.
 If you prefer, you can also turn on Jobs > Burst > Synchronous Compilation which will wait for
@@ -148,7 +154,8 @@ the main thread. See the changelog of entities 0.3.0 for more information.
 
 ## Caveats and known issues
 
-  This project represents a snapshot of our efforts to bring many of the new technologies together in a single project. It depends on many packages that are
+  This project represents a snapshot of our efforts to bring many of the new
+  technologies together in a single project. It depends on many packages that are
   still in experimental stage so there will be API changes as well as changes
   to best practices going forward from here.
 
@@ -163,7 +170,8 @@ the main thread. See the changelog of entities 0.3.0 for more information.
   Expect lots of improvements here.
 
 * Handling of dynamically spawned assets is rudimentary still. This is why we
-  currently have the temporary solution of keeping the subscene PrefabAssetRegistry in all levels.
+  currently have the temporary solution of keeping the subscene PrefabAssetRegistry
+  in all levels.
 
 * This sample is not about visual fidelity and the featureset of the hybrid HDRP
   rendering is still under development.
