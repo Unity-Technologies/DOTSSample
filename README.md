@@ -175,3 +175,4 @@ the main thread. See the changelog of entities 0.3.0 for more information.
 
 * This sample is not about visual fidelity and the featureset of the hybrid HDRP
   rendering is still under development.
+
