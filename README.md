@@ -43,7 +43,7 @@ live link in action.
 * You can now enter play mode and should be able to play the game.
 
 * Opening
-  the window "Multiplayer > PlayMode Tools" give you options for what happens
+  the window "Multiplayer > PlayMode Tools" gives you options for what happens
   when you enter play mode. By default it will say "Client and Server" which
   means that play mode will host two worlds, a client and a server.
   We will get back to more of these options, but for now you can try requesting a few
@@ -54,7 +54,7 @@ live link in action.
 * ***Known issue***: The option "Num Clients" is not working properly at this time.
 
 
-## Making stand alone builds
+## Making standalone builds
 
 * ***Note*** There is some automation to help doing these steps on a daily
   basis (check out A2 > Windows > Launch Window) but it is useful to know what
@@ -82,7 +82,7 @@ live link in action.
   connect the client to the server.
 
 * ***Known Issue***: On MacOS there will be HUD and black screen only shown on the client
-  for up to 10 minutes the first time the game is launched. (If you press esc and open the
+  for up to 10 minutes the first time the game is launched. (If you press Esc and open the
   settings menu for the game, switching to Low graphics quality setting might clear this up
   and save you the wait!)
     
@@ -92,10 +92,10 @@ live link in action.
   can be used to start a server that is hosting a game on whitebox_arena_a.
 
 
-## Making stand alone builds for use with Live Link
+## Making standalone builds for use with Live Link
 
 ***Note*** The live link feature is still at an early stage. Currently you need to use a
-special set of build configurations when making standlone builds. The following steps will
+special set of build configurations when making standalone builds. The following steps will
 show you the live link in action.
 
 * Make builds using the Win-Server-LiveLink resp. Win-Client-LiveLink buildsettings.
@@ -109,7 +109,7 @@ show you the live link in action.
 * Move some stuff around in the editor etc.
 
 ***Known issue*** Currently, when you open a subscene in the editor while livelink player is
-attached, all the entities in that scene is 'recreated' so they get a new entity id. This means
+attached, all the entities in that scene are 'recreated' so they get a new entity id. This means
 any references your code might hold to those entities will become invalid. This will be fixed
 in the future. For now this means, that you cannot successfully open the scene
 `PrefabAssetRegistry` in this project while the player is running.
@@ -125,7 +125,7 @@ any further. A workaround, until this is fixed, is to reboot the machine.
 
 * As an example, you can launch a standalone server. Then in the editor in the PlayMode tools
   select Client and type `127.0.0.1` as the server it should connect to. When you enter
-  playmode, the editor will now act as a client and connect to the server.
+  play mode, the editor will now act as a client and connect to the server.
 
 * When running as client in the editor, you can access some network stats by opening in a
   browser the file `ModifiedPackages/com.unity.netcode/Runtime/Stats/netdbg.html` and connect
@@ -143,7 +143,7 @@ view at the same time, it can also help to close the scene view or put it in a t
 the game view when in play mode.
 
 Be aware that the burst compiler is compiling code in the background so when you enter
-playmode it can take a while for full performance to be achieved. Turning on Burst timings
+play mode it can take a while for full performance to be achieved. Turning on Burst timings
 (Jobs > Burst > Show Timings) will give you a log item for each completed burst code piece.
 When they stop appearing everything is bursted and performance is as good as it gets.
 If you prefer, you can also turn on Jobs > Burst > Synchronous Compilation which will wait for
